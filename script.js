@@ -30,3 +30,21 @@ let membro = [
         Foto:"barbara-ramos-graphic-designer.jpg",
     }
 ]
+
+for(let persona of membro){
+    stampaPersona(persona);
+}
+
+function stampaPersona(membro){
+
+    console.log(
+        `
+-------------- Membro ----------------
+    Nome: ${membro.Nome}
+    Ruolo: ${membro.Ruolo}
+    Foto: ${membro.Foto}
+--------------------------------------
+
+        `
+    )
+}
